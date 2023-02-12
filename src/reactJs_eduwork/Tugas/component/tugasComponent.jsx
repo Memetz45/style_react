@@ -2,17 +2,17 @@ import React from "react";
 // import PropTypes from 'prop-types';
 
 class TugasComponent extends React.Component {
-    state = {
-        value: 0
-    }
-    handlePlus = () => {
-        this.setState({ value: this.state.value + 1 })
-    }
-    handleMinus = () => {
-        if (this.state.value > 0) {
-            this.setState({ value: this.state.value - 1 })
-        }
-    }
+    // state = {
+    //     value: 0
+    // }
+    // handlePlus = () => {
+    //     this.setState({ value: this.state.value + 1 })
+    // }
+    // handleMinus = () => {
+    //     if (this.state.value > 0) {
+    //         this.setState({ value: this.state.value - 1 })
+    //     }
+    // }
     render() {
         return (
             <div>
