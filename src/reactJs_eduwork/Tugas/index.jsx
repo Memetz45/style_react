@@ -1,13 +1,11 @@
 import React from "react";
-import TugasComponent from "./component/tugasComponent";
-import TugasKomponen from "./component/tugasKomponen";
+import Header from "./Header";
 
 class Tugas extends React.Component {
     render(){
         return(
             <div>
-                <TugasComponent/>
-                <TugasKomponen/>
+                <Header/>
             </div>
         )
     }
