@@ -4,19 +4,20 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 
 
+
 const Header = () => {
     return(
-        <Navbar bg="dark" variant="dark">
-            <Container>
+        <Navbar bg="dark" fixed="top">
+            <Container className="">
                 <Navbar.Brand href="#home">
                     <img
                     alt=""
-                    src="https://res.cloudinary.com/dzm5hygct/image/upload/v1676361358/cld-sample-5.jpg"
-                    width="50"
+                    src="https://res.cloudinary.com/dzm5hygct/image/upload/v1676368134/favicon_vrwyis.png"
                     height="50"
-                    className="d-inline-block align-top"
-                    />{' '}
-                    React Bootstrap
+                    /> 
+                </Navbar.Brand>
+                <Navbar.Brand href="#home">
+                    <h1 className="text-light">@Slamet Nurhidayat</h1>
                 </Navbar.Brand>
             </Container>
         </Navbar>

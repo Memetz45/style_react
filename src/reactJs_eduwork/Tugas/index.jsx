@@ -1,4 +1,5 @@
 import React from "react";
+import Body from "./Body";
 import Header from "./Header";
 
 class Tugas extends React.Component {
@@ -6,6 +7,7 @@ class Tugas extends React.Component {
         return(
             <div>
                 <Header/>
+                <Body/>
             </div>
         )
     }
