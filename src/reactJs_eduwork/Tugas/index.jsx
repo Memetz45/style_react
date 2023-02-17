@@ -1,6 +1,6 @@
 import React from "react";
-import Body from "./Body";
-import Header from "./Header";
+import Body from "./Tugas_Style/Body";
+import Header from "./Tugas_Style/Header";
 
 class Tugas extends React.Component {
     render(){
