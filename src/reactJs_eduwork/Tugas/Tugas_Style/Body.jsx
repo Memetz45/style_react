@@ -1,6 +1,6 @@
 import React from "react";
+import './style.css';
 import { Menu } from "antd";
-import './Body.css';
 import { Route, Routes, useNavigate } from "react-router-dom";
 import { CgProfile } from "react-icons/cg";
 import { IoSchoolSharp } from "react-icons/io5";
@@ -14,20 +14,25 @@ import JobTraining from "./JobTraining";
 import Projects from "./Projects";
 import Header from "./Header";
 
-// import { Content } from "antd/es/layout/layout";
 
 
 const Body = () => {
     const navigate = useNavigate();
     const style = {
-        backgroundColor: 'aqua',
-        backgroundSize: 'auto'
+        marginTop: '80px',
+        height: '100%',
+        width: '160px',
+        position: 'fixed',
+        zIndex:'1',
+        top:'0',
+        left:'0',
+        overflowX: 'hidden',
+        backgroundColor: 'aqua'
     }
     return (
         <div>
-            <Header/>
+            <Header />
             <div className="body">
-
                 <Menu style={style}
                     onClick={({ key }) => {
                         if (key === "profile") {
