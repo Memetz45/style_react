@@ -9,7 +9,7 @@ const Header = () => {
     return(
         <Navbar bg="dark" fixed="top">
             <Container className="">
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="./">
                     <img
                     alt=""
                     src="https://res.cloudinary.com/dzm5hygct/image/upload/v1676368134/favicon_vrwyis.png"
